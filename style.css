@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  color: #444;
+  background: #c8d8ff;
+}
+
+.parallax {
+  height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  background-attachment: fixed;
+}
+
+.view {
+  background-image: url("images/view.jpg");
+}
+
+.trees {
+  background-image: url("images/trees.jpg");
+}
+
+.flowers {
+  background-image: url("images/flowers.jpg");
+}
+
+
+.content {
+  min-height: 60vh;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  text-align: center;
+
+  padding: 60px;
+  background: #fdeffc;
+}
+
+.card {
+  background: rgba(252, 255, 177, 0.75);
+
+  padding: 40px;
+
+  border-radius: 16px;
+
+  backdrop-filter: blur(3px);
+
+  max-width: 500px;
+}
+
+h1,
+h2 {
+  margin-bottom: 15px;
+}
+
+p {
+  line-height: 1.6;
+}
